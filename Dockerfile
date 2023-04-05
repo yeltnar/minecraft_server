@@ -10,8 +10,5 @@ RUN mkdir -p /opt/app; cd /opt/app; wget https://piston-data.mojang.com/v1/objec
 
 EXPOSE 25565
 
-ARG "-Xmx1024M" 
-ARG "-Xms1024M" 
-
 CMD /usr/bin/init.sh
 
